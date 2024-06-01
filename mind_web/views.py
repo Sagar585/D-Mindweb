@@ -13,10 +13,6 @@ def home(request):
 #     return render(request, 'index.html')
 
 @login_required(login_url='login')
-def aboutus(request):
-    return render(request, 'aboutus.html')
-
-@login_required(login_url='login')
 def contactus(request):
     return render(request, 'contactus.html')
 
