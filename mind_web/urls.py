@@ -4,7 +4,7 @@ from mind_web import views
 
 urlpatterns = [
     path('mindweb.vercel.app/reg_page',views.registration, name='reg_page'),
-    path('mindweb.vercel.app/',views.loginPage, name='login_form'),
+    path('/',views.loginPage, name='login_form'),
     path('mindweb.vercel.app/login',views.loginPage, name='login'),
     path('mindweb.vercel.app/home',views.home, name='home'),
     path('mindweb.vercel.app/contactus', views.contactus, name='contactus'),
